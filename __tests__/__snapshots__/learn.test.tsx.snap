@@ -1,0 +1,78 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Learn > renders error state 1`] = `
+<div>
+  <div
+    class="px-pagemargin self-center"
+  >
+    <div
+      class="flex-col flex-shrink-0 flex-grow-0 gap-y-8 w-xs h-full snap-start"
+    >
+      <p
+        class="font-medium"
+      >
+        suv
+      </p>
+      <div
+        class="flex-col md:flex-row gap-8"
+      >
+        <p
+          class="font-medium"
+        >
+          XC90 Recharge
+        </p>
+        <p
+          class="font-medium text-secondary"
+        >
+          plug-in hybrid
+        </p>
+      </div>
+      <img
+        alt="XC90 Recharge"
+        class="cover aspect-4/3 w-full mb-8"
+        data-nimg="1"
+        decoding="async"
+        height="300"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Fxc90_recharge.jpg&w=828&q=75"
+        srcset="/_next/image?url=%2Fimages%2Fxc90_recharge.jpg&w=640&q=75 1x, /_next/image?url=%2Fimages%2Fxc90_recharge.jpg&w=828&q=75 2x"
+        style="color: transparent; height: auto;"
+        width="400"
+      />
+      <div
+        class="flex flex-wrap gap-x-24 justify-center"
+      >
+        <a
+          class="text-accent-blue"
+          href="/"
+        >
+          <img
+            class="icon-mask"
+            height="16"
+            role="presentation"
+            src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronback-16.svg"
+            style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronback-16.svg);"
+            width="16"
+          />
+           Back
+        </a>
+        <a
+          class="text-accent-blue"
+          href="/shop/xc90-recharge"
+        >
+          Shop
+           
+          <img
+            class="icon-mask"
+            height="16"
+            role="presentation"
+            src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
+            style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
+            width="16"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

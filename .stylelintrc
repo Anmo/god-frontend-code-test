@@ -1,0 +1,3 @@
+extends:
+  - '@volvo-cars/stylelint-config'
+  - '@volvo-cars/stylelint-config/order'

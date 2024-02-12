@@ -1,0 +1,117 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Document > renders the base document page 1`] = `
+<div>
+  <html
+    lang="en"
+  >
+    <head>
+      <link
+        href="https://www.volvocars.com/static/shared/images/favicons/apple-touch-icon-precomposed-180x180.v2.png"
+        rel="apple-touch-icon"
+        sizes="180x180"
+      />
+      <link
+        href="https://www.volvocars.com/static/shared/images/favicons/favicon-16x16.v2.png"
+        rel="icon"
+        sizes="16x16"
+      />
+      <link
+        href="https://www.volvocars.com/static/shared/images/favicons/favicon-32x32.v2.png"
+        rel="icon"
+        sizes="32x32"
+      />
+      <link
+        href="https://www.volvocars.com/static/shared/images/favicons/favicon-192x192.v2.png"
+        rel="icon"
+        sizes="192x192"
+      />
+      <link
+        href="https://www.volvocars.com/static/shared/images/favicons/favicon-16x16.v2.svg"
+        rel="icon"
+        type="image/svg+xml"
+      />
+      <link
+        as="style"
+        crossorigin="anonymous"
+        href="https://www.volvocars.com/static/shared/pkg/css/v1/tokens.49be5343.css"
+        rel="preload"
+      />
+      <link
+        as="style"
+        crossorigin="anonymous"
+        href="https://www.volvocars.com/static/shared/pkg/css/v1/styles.0507d7e6.css"
+        rel="preload"
+      />
+      <link
+        as="style"
+        crossorigin="anonymous"
+        href="https://www.volvocars.com/static/shared/pkg/css/v1/styles_md.d8ac0eee.css"
+        media="(min-width: 30rem)"
+        rel="preload"
+      />
+      <link
+        as="style"
+        crossorigin="anonymous"
+        href="https://www.volvocars.com/static/shared/pkg/css/v1/styles_xl.062aa004.css"
+        media="(min-width: 100rem)"
+        rel="preload"
+      />
+      <link
+        as="style"
+        crossorigin="anonymous"
+        href="https://www.volvocars.com/static/shared/pkg/css/v1/styles_hover.9f136bf8.css"
+        media="(hover: hover)"
+        rel="preload"
+      />
+      <link
+        crossorigin="anonymous"
+        data-volvo-css-name="font-face.css"
+        href="data:text/css;base64,QGZvbnQtZmFjZXtmb250LWZhbWlseTpWb2x2byBOb3Z1bTtmb250LXdlaWdodDozMDA7c3JjOnVybChodHRwczovL3d3dy52b2x2b2NhcnMuY29tL3N0YXRpYy9zaGFyZWQvZm9udHMvdm9sdm8tbm92dW0vdm9sdm8tbm92dW0tZ3JlZWstc2VtaS1saWdodC53b2ZmMilmb3JtYXQoIndvZmYyIik7Zm9udC1kaXNwbGF5OnN3YXA7dW5pY29kZS1yYW5nZTpVKzM3MC0zRkZ9QGZvbnQtZmFjZXtmb250LWZhbWlseTpWb2x2byBOb3Z1bTtmb250LXdlaWdodDozMDA7c3JjOnVybChodHRwczovL3d3dy52b2x2b2NhcnMuY29tL3N0YXRpYy9zaGFyZWQvZm9udHMvdm9sdm8tbm92dW0vdm9sdm8tbm92dW0tY3lyaWxsaWMtc2VtaS1saWdodC53b2ZmMilmb3JtYXQoIndvZmYyIik7Zm9udC1kaXNwbGF5OnN3YXA7dW5pY29kZS1yYW5nZTpVKzQ/P31AZm9udC1mYWNle2ZvbnQtZmFtaWx5OlZvbHZvIE5vdnVtO2ZvbnQtd2VpZ2h0OjMwMDtzcmM6dXJsKGh0dHBzOi8vd3d3LnZvbHZvY2Fycy5jb20vc3RhdGljL3NoYXJlZC9mb250cy92b2x2by1ub3Z1bS92b2x2by1ub3Z1bS1zZW1pLWxpZ2h0LndvZmYyKWZvcm1hdCgid29mZjIiKTtmb250LWRpc3BsYXk6c3dhcH1AZm9udC1mYWNle2ZvbnQtZmFtaWx5OlZvbHZvIE5vdnVtO2ZvbnQtc3R5bGU6aXRhbGljO2ZvbnQtd2VpZ2h0OjMwMDtzcmM6dXJsKGh0dHBzOi8vd3d3LnZvbHZvY2Fycy5jb20vc3RhdGljL3NoYXJlZC9mb250cy92b2x2by1ub3Z1bS92b2x2by1ub3Z1bS1ncmVlay1zZW1pLWxpZ2h0LWl0YWxpYy53b2ZmMilmb3JtYXQoIndvZmYyIik7Zm9udC1kaXNwbGF5OnN3YXA7dW5pY29kZS1yYW5nZTpVKzM3MC0zRkZ9QGZvbnQtZmFjZXtmb250LWZhbWlseTpWb2x2byBOb3Z1bTtmb250LXN0eWxlOml0YWxpYztmb250LXdlaWdodDozMDA7c3JjOnVybChodHRwczovL3d3dy52b2x2b2NhcnMuY29tL3N0YXRpYy9zaGFyZWQvZm9udHMvdm9sdm8tbm92dW0vdm9sdm8tbm92dW0tY3lyaWxsaWMtc2VtaS1saWdodC1pdGFsaWMud29mZjIpZm9ybWF0KCJ3b2ZmMiIpO2ZvbnQtZGlzcGxheTpzd2FwO3VuaWNvZGUtcmFuZ2U6VSs0Pz99QGZvbnQtZmFjZXtmb250LWZhbWlseTpWb2x2byBOb3Z1bTtmb250LXN0eWxlOml0YWxpYztmb250LXdlaWdodDozMDA7c3JjOnVybChodHRwczovL3d3dy52b2x2b2NhcnMuY29tL3N0YXRpYy9zaGFyZWQvZm9udHMvdm9sdm8tbm92dW0vdm9sdm8tbm92dW0tc2VtaS1saWdodC1pdGFsaWMud29mZjIpZm9ybWF0KCJ3b2ZmMiIpO2ZvbnQtZGlzcGxheTpzd2FwfUBmb250LWZhY2V7Zm9udC1mYW1pbHk6Vm9sdm8gTm92dW07Zm9udC13ZWlnaHQ6NTAwO3NyYzp1cmwoaHR0cHM6Ly93d3cudm9sdm9jYXJzLmNvbS9zdGF0aWMvc2hhcmVkL2ZvbnRzL3ZvbHZvLW5vdnVtL3ZvbHZvLW5vdnVtLWdyZWVrLW1lZGl1bS53b2ZmMilmb3JtYXQoIndvZmYyIik7Zm9udC1kaXNwbGF5OnN3YXA7dW5pY29kZS1yYW5nZTpVKzM3MC0zRkZ9QGZvbnQtZmFjZXtmb250LWZhbWlseTpWb2x2byBOb3Z1bTtmb250LXdlaWdodDo1MDA7c3JjOnVybChodHRwczovL3d3dy52b2x2b2NhcnMuY29tL3N0YXRpYy9zaGFyZWQvZm9udHMvdm9sdm8tbm92dW0vdm9sdm8tbm92dW0tY3lyaWxsaWMtbWVkaXVtLndvZmYyKWZvcm1hdCgid29mZjIiKTtmb250LWRpc3BsYXk6c3dhcDt1bmljb2RlLXJhbmdlOlUrND8/fUBmb250LWZhY2V7Zm9udC1mYW1pbHk6Vm9sdm8gTm92dW07Zm9udC13ZWlnaHQ6NTAwO3NyYzp1cmwoaHR0cHM6Ly93d3cudm9sdm9jYXJzLmNvbS9zdGF0aWMvc2hhcmVkL2ZvbnRzL3ZvbHZvLW5vdnVtL3ZvbHZvLW5vdnVtLW1lZGl1bS53b2ZmMilmb3JtYXQoIndvZmYyIik7Zm9udC1kaXNwbGF5OnN3YXB9QGZvbnQtZmFjZXtmb250LWZhbWlseTpWb2x2byBOb3Z1bTtmb250LXN0eWxlOml0YWxpYztmb250LXdlaWdodDo1MDA7c3JjOnVybChodHRwczovL3d3dy52b2x2b2NhcnMuY29tL3N0YXRpYy9zaGFyZWQvZm9udHMvdm9sdm8tbm92dW0vdm9sdm8tbm92dW0tZ3JlZWstbWVkaXVtLWl0YWxpYy53b2ZmMilmb3JtYXQoIndvZmYyIik7Zm9udC1kaXNwbGF5OnN3YXA7dW5pY29kZS1yYW5nZTpVKzM3MC0zRkZ9QGZvbnQtZmFjZXtmb250LWZhbWlseTpWb2x2byBOb3Z1bTtmb250LXN0eWxlOml0YWxpYztmb250LXdlaWdodDo1MDA7c3JjOnVybChodHRwczovL3d3dy52b2x2b2NhcnMuY29tL3N0YXRpYy9zaGFyZWQvZm9udHMvdm9sdm8tbm92dW0vdm9sdm8tbm92dW0tY3lyaWxsaWMtbWVkaXVtLWl0YWxpYy53b2ZmMilmb3JtYXQoIndvZmYyIik7Zm9udC1kaXNwbGF5OnN3YXA7dW5pY29kZS1yYW5nZTpVKzQ/P31AZm9udC1mYWNle2ZvbnQtZmFtaWx5OlZvbHZvIE5vdnVtO2ZvbnQtc3R5bGU6aXRhbGljO2ZvbnQtd2VpZ2h0OjUwMDtzcmM6dXJsKGh0dHBzOi8vd3d3LnZvbHZvY2Fycy5jb20vc3RhdGljL3NoYXJlZC9mb250cy92b2x2by1ub3Z1bS92b2x2by1ub3Z1bS1tZWRpdW0taXRhbGljLndvZmYyKWZvcm1hdCgid29mZjIiKTtmb250LWRpc3BsYXk6c3dhcH1AZm9udC1mYWNle2ZvbnQtZmFtaWx5OlZvbHZvIEJyb2FkO2ZvbnQtd2VpZ2h0OjQwMDtzcmM6dXJsKGh0dHBzOi8vd3d3LnZvbHZvY2Fycy5jb20vc3RhdGljL3NoYXJlZC9mb250cy92b2x2by1icm9hZC92b2x2by1icm9hZC1jeXJpbGxpYy53b2ZmMilmb3JtYXQoIndvZmYyIik7Zm9udC1kaXNwbGF5OnN3YXA7dW5pY29kZS1yYW5nZTpVKzQ/P31AZm9udC1mYWNle2ZvbnQtZmFtaWx5OlZvbHZvIEJyb2FkO2ZvbnQtd2VpZ2h0OjQwMDtzcmM6dXJsKGh0dHBzOi8vd3d3LnZvbHZvY2Fycy5jb20vc3RhdGljL3NoYXJlZC9mb250cy92b2x2by1icm9hZC92b2x2by1icm9hZC1ncmVlay53b2ZmMilmb3JtYXQoIndvZmYyIik7Zm9udC1kaXNwbGF5OnN3YXA7dW5pY29kZS1yYW5nZTpVKzM3MC0zRkZ9QGZvbnQtZmFjZXtmb250LWZhbWlseTpWb2x2byBCcm9hZDtmb250LXdlaWdodDo0MDA7c3JjOnVybChodHRwczovL3d3dy52b2x2b2NhcnMuY29tL3N0YXRpYy9zaGFyZWQvZm9udHMvdm9sdm8tYnJvYWQvdm9sdm8tYnJvYWQtbGF0aW4tcmVzdC53b2ZmMilmb3JtYXQoIndvZmYyIik7Zm9udC1kaXNwbGF5OnN3YXA7dW5pY29kZS1yYW5nZTpVKzIwLTM2RixVKzUzMC1GQjAyfQ=="
+        rel="stylesheet"
+      />
+      <link
+        crossorigin="anonymous"
+        data-volvo-css-name="tokens.css"
+        href="https://www.volvocars.com/static/shared/pkg/css/v1/tokens.49be5343.css"
+        rel="stylesheet"
+      />
+      <link
+        crossorigin="anonymous"
+        data-volvo-css-name="styles.css"
+        href="https://www.volvocars.com/static/shared/pkg/css/v1/styles.0507d7e6.css"
+        rel="stylesheet"
+      />
+      <link
+        crossorigin="anonymous"
+        data-volvo-css-name="styles_md.css"
+        href="https://www.volvocars.com/static/shared/pkg/css/v1/styles_md.d8ac0eee.css"
+        media="(min-width: 30rem)"
+        rel="stylesheet"
+      />
+      <link
+        crossorigin="anonymous"
+        data-volvo-css-name="styles_xl.css"
+        href="https://www.volvocars.com/static/shared/pkg/css/v1/styles_xl.062aa004.css"
+        media="(min-width: 100rem)"
+        rel="stylesheet"
+      />
+      <link
+        crossorigin="anonymous"
+        data-volvo-css-name="styles_hover.css"
+        href="https://www.volvocars.com/static/shared/pkg/css/v1/styles_hover.9f136bf8.css"
+        media="(hover: hover)"
+        rel="stylesheet"
+      />
+    </head>
+    <body>
+      <div>
+        Main
+      </div>
+      <div>
+        NextScript
+      </div>
+    </body>
+  </html>
+</div>
+`;
