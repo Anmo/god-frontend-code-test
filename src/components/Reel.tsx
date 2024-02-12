@@ -11,7 +11,7 @@ export const Reel: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     <>
       <div
         ref={ref}
-        className="container-lg reel scrollbar-none gap-x-gutter py-16 px-pagemargin lg:px-0"
+        className="container-max reel scrollbar-none gap-x-gutter py-16 px-pagemargin lg:px-0"
       >
         {children}
       </div>

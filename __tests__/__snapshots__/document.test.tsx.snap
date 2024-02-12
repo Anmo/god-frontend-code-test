@@ -2,10 +2,13 @@
 
 exports[`Document > renders the base document page 1`] = `
 <div>
-  <html
+  <div
+    data-element="html"
     lang="en"
   >
-    <head>
+    <div
+      data-element="head"
+    >
       <link
         href="https://www.volvocars.com/static/shared/images/favicons/apple-touch-icon-precomposed-180x180.v2.png"
         rel="apple-touch-icon"
@@ -103,7 +106,7 @@ exports[`Document > renders the base document page 1`] = `
         media="(hover: hover)"
         rel="stylesheet"
       />
-    </head>
+    </div>
     <body>
       <div>
         Main
@@ -112,6 +115,6 @@ exports[`Document > renders the base document page 1`] = `
         NextScript
       </div>
     </body>
-  </html>
+  </div>
 </div>
 `;

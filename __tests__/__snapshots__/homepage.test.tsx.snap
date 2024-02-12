@@ -19,555 +19,559 @@ exports[`Homepage > renders error state 1`] = `
     </div>
   </div>
   <div
-    class="flex-col flex-shrink-0 flex-grow-0 gap-y-8 w-xs h-full snap-start"
+    class="main-container"
   >
-    <p
-      class="font-medium"
-    >
-      suv
-    </p>
     <div
-      class="flex-col md:flex-row gap-8"
+      class="flex-col flex-shrink-0 flex-grow-0 gap-y-8 w-xs h-full snap-start"
     >
       <p
         class="font-medium"
       >
-        XC90 Recharge
+        suv
       </p>
-      <p
-        class="font-medium text-secondary"
+      <div
+        class="flex-col md:flex-row gap-8"
       >
-        plug-in hybrid
-      </p>
+        <p
+          class="font-medium"
+        >
+          XC90 Recharge
+        </p>
+        <p
+          class="font-medium text-secondary"
+        >
+          plug-in hybrid
+        </p>
+      </div>
+      <img
+        alt="XC90 Recharge"
+        class="cover aspect-4/3 w-full mb-8"
+        data-nimg="1"
+        decoding="async"
+        height="300"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Fxc90_recharge.jpg&w=828&q=75"
+        srcset="/_next/image?url=%2Fimages%2Fxc90_recharge.jpg&w=640&q=75 1x, /_next/image?url=%2Fimages%2Fxc90_recharge.jpg&w=828&q=75 2x"
+        style="color: transparent; height: auto;"
+        width="400"
+      />
+      <div
+        class="flex flex-wrap gap-x-24 justify-center"
+      >
+        <a
+          class="text-accent-blue"
+          href="/learn/xc90-recharge"
+        >
+          Learn
+           
+          <img
+            class="icon-mask"
+            height="16"
+            role="presentation"
+            src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
+            style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
+            width="16"
+          />
+        </a>
+        <a
+          class="text-accent-blue"
+          href="/shop/xc90-recharge"
+        >
+          Shop
+           
+          <img
+            class="icon-mask"
+            height="16"
+            role="presentation"
+            src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
+            style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
+            width="16"
+          />
+        </a>
+      </div>
     </div>
-    <img
-      alt="XC90 Recharge"
-      class="cover aspect-4/3 w-full mb-8"
-      data-nimg="1"
-      decoding="async"
-      height="300"
-      loading="lazy"
-      src="/_next/image?url=%2Fimages%2Fxc90_recharge.jpg&w=828&q=75"
-      srcset="/_next/image?url=%2Fimages%2Fxc90_recharge.jpg&w=640&q=75 1x, /_next/image?url=%2Fimages%2Fxc90_recharge.jpg&w=828&q=75 2x"
-      style="color: transparent; height: auto;"
-      width="400"
-    />
     <div
-      class="flex flex-wrap gap-x-24 justify-center"
-    >
-      <a
-        class="text-accent-blue"
-        href="/learn/xc90-recharge"
-      >
-        Learn
-         
-        <img
-          class="icon-mask"
-          height="16"
-          role="presentation"
-          src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
-          style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
-          width="16"
-        />
-      </a>
-      <a
-        class="text-accent-blue"
-        href="/shop/xc90-recharge"
-      >
-        Shop
-         
-        <img
-          class="icon-mask"
-          height="16"
-          role="presentation"
-          src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
-          style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
-          width="16"
-        />
-      </a>
-    </div>
-  </div>
-  <div
-    class="flex-col flex-shrink-0 flex-grow-0 gap-y-8 w-xs h-full snap-start"
-  >
-    <p
-      class="font-medium"
-    >
-      suv
-    </p>
-    <div
-      class="flex-col md:flex-row gap-8"
-    >
-      <p
-        class="font-medium"
-      >
-        XC60 Recharge
-      </p>
-      <p
-        class="font-medium text-secondary"
-      >
-        plug-in hybrid
-      </p>
-    </div>
-    <img
-      alt="XC60 Recharge"
-      class="cover aspect-4/3 w-full mb-8"
-      data-nimg="1"
-      decoding="async"
-      height="300"
-      loading="lazy"
-      src="/_next/image?url=%2Fimages%2Fxc60_recharge.jpg&w=828&q=75"
-      srcset="/_next/image?url=%2Fimages%2Fxc60_recharge.jpg&w=640&q=75 1x, /_next/image?url=%2Fimages%2Fxc60_recharge.jpg&w=828&q=75 2x"
-      style="color: transparent; height: auto;"
-      width="400"
-    />
-    <div
-      class="flex flex-wrap gap-x-24 justify-center"
-    >
-      <a
-        class="text-accent-blue"
-        href="/learn/xc60-recharge"
-      >
-        Learn
-         
-        <img
-          class="icon-mask"
-          height="16"
-          role="presentation"
-          src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
-          style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
-          width="16"
-        />
-      </a>
-      <a
-        class="text-accent-blue"
-        href="/shop/xc60-recharge"
-      >
-        Shop
-         
-        <img
-          class="icon-mask"
-          height="16"
-          role="presentation"
-          src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
-          style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
-          width="16"
-        />
-      </a>
-    </div>
-  </div>
-  <div
-    class="flex-col flex-shrink-0 flex-grow-0 gap-y-8 w-xs h-full snap-start"
-  >
-    <p
-      class="font-medium"
-    >
-      suv
-    </p>
-    <div
-      class="flex-col md:flex-row gap-8"
+      class="flex-col flex-shrink-0 flex-grow-0 gap-y-8 w-xs h-full snap-start"
     >
       <p
         class="font-medium"
       >
-        XC40 Recharge
+        suv
       </p>
-      <p
-        class="font-medium text-secondary"
+      <div
+        class="flex-col md:flex-row gap-8"
       >
-        plug-in hybrid
-      </p>
+        <p
+          class="font-medium"
+        >
+          XC60 Recharge
+        </p>
+        <p
+          class="font-medium text-secondary"
+        >
+          plug-in hybrid
+        </p>
+      </div>
+      <img
+        alt="XC60 Recharge"
+        class="cover aspect-4/3 w-full mb-8"
+        data-nimg="1"
+        decoding="async"
+        height="300"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Fxc60_recharge.jpg&w=828&q=75"
+        srcset="/_next/image?url=%2Fimages%2Fxc60_recharge.jpg&w=640&q=75 1x, /_next/image?url=%2Fimages%2Fxc60_recharge.jpg&w=828&q=75 2x"
+        style="color: transparent; height: auto;"
+        width="400"
+      />
+      <div
+        class="flex flex-wrap gap-x-24 justify-center"
+      >
+        <a
+          class="text-accent-blue"
+          href="/learn/xc60-recharge"
+        >
+          Learn
+           
+          <img
+            class="icon-mask"
+            height="16"
+            role="presentation"
+            src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
+            style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
+            width="16"
+          />
+        </a>
+        <a
+          class="text-accent-blue"
+          href="/shop/xc60-recharge"
+        >
+          Shop
+           
+          <img
+            class="icon-mask"
+            height="16"
+            role="presentation"
+            src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
+            style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
+            width="16"
+          />
+        </a>
+      </div>
     </div>
-    <img
-      alt="XC40 Recharge"
-      class="cover aspect-4/3 w-full mb-8"
-      data-nimg="1"
-      decoding="async"
-      height="300"
-      loading="lazy"
-      src="/_next/image?url=%2Fimages%2Fxc40_recharge.jpg&w=828&q=75"
-      srcset="/_next/image?url=%2Fimages%2Fxc40_recharge.jpg&w=640&q=75 1x, /_next/image?url=%2Fimages%2Fxc40_recharge.jpg&w=828&q=75 2x"
-      style="color: transparent; height: auto;"
-      width="400"
-    />
     <div
-      class="flex flex-wrap gap-x-24 justify-center"
-    >
-      <a
-        class="text-accent-blue"
-        href="/learn/xc40-recharge"
-      >
-        Learn
-         
-        <img
-          class="icon-mask"
-          height="16"
-          role="presentation"
-          src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
-          style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
-          width="16"
-        />
-      </a>
-      <a
-        class="text-accent-blue"
-        href="/shop/xc40-recharge"
-      >
-        Shop
-         
-        <img
-          class="icon-mask"
-          height="16"
-          role="presentation"
-          src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
-          style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
-          width="16"
-        />
-      </a>
-    </div>
-  </div>
-  <div
-    class="flex-col flex-shrink-0 flex-grow-0 gap-y-8 w-xs h-full snap-start"
-  >
-    <p
-      class="font-medium"
-    >
-      suv
-    </p>
-    <div
-      class="flex-col md:flex-row gap-8"
-    >
-      <p
-        class="font-medium"
-      >
-        XC40 Recharge
-      </p>
-      <p
-        class="font-medium text-secondary"
-      >
-        pure electric
-      </p>
-    </div>
-    <img
-      alt="XC40 Recharge"
-      class="cover aspect-4/3 w-full mb-8"
-      data-nimg="1"
-      decoding="async"
-      height="300"
-      loading="lazy"
-      src="/_next/image?url=%2Fimages%2Fxc40_bev.jpg&w=828&q=75"
-      srcset="/_next/image?url=%2Fimages%2Fxc40_bev.jpg&w=640&q=75 1x, /_next/image?url=%2Fimages%2Fxc40_bev.jpg&w=828&q=75 2x"
-      style="color: transparent; height: auto;"
-      width="400"
-    />
-    <div
-      class="flex flex-wrap gap-x-24 justify-center"
-    >
-      <a
-        class="text-accent-blue"
-        href="/learn/xc40-bev"
-      >
-        Learn
-         
-        <img
-          class="icon-mask"
-          height="16"
-          role="presentation"
-          src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
-          style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
-          width="16"
-        />
-      </a>
-      <a
-        class="text-accent-blue"
-        href="/shop/xc40-bev"
-      >
-        Shop
-         
-        <img
-          class="icon-mask"
-          height="16"
-          role="presentation"
-          src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
-          style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
-          width="16"
-        />
-      </a>
-    </div>
-  </div>
-  <div
-    class="flex-col flex-shrink-0 flex-grow-0 gap-y-8 w-xs h-full snap-start"
-  >
-    <p
-      class="font-medium"
-    >
-      estate
-    </p>
-    <div
-      class="flex-col md:flex-row gap-8"
+      class="flex-col flex-shrink-0 flex-grow-0 gap-y-8 w-xs h-full snap-start"
     >
       <p
         class="font-medium"
       >
-        V90 Recharge
+        suv
       </p>
-      <p
-        class="font-medium text-secondary"
+      <div
+        class="flex-col md:flex-row gap-8"
       >
-        plug-in hybrid
-      </p>
+        <p
+          class="font-medium"
+        >
+          XC40 Recharge
+        </p>
+        <p
+          class="font-medium text-secondary"
+        >
+          plug-in hybrid
+        </p>
+      </div>
+      <img
+        alt="XC40 Recharge"
+        class="cover aspect-4/3 w-full mb-8"
+        data-nimg="1"
+        decoding="async"
+        height="300"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Fxc40_recharge.jpg&w=828&q=75"
+        srcset="/_next/image?url=%2Fimages%2Fxc40_recharge.jpg&w=640&q=75 1x, /_next/image?url=%2Fimages%2Fxc40_recharge.jpg&w=828&q=75 2x"
+        style="color: transparent; height: auto;"
+        width="400"
+      />
+      <div
+        class="flex flex-wrap gap-x-24 justify-center"
+      >
+        <a
+          class="text-accent-blue"
+          href="/learn/xc40-recharge"
+        >
+          Learn
+           
+          <img
+            class="icon-mask"
+            height="16"
+            role="presentation"
+            src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
+            style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
+            width="16"
+          />
+        </a>
+        <a
+          class="text-accent-blue"
+          href="/shop/xc40-recharge"
+        >
+          Shop
+           
+          <img
+            class="icon-mask"
+            height="16"
+            role="presentation"
+            src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
+            style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
+            width="16"
+          />
+        </a>
+      </div>
     </div>
-    <img
-      alt="V90 Recharge"
-      class="cover aspect-4/3 w-full mb-8"
-      data-nimg="1"
-      decoding="async"
-      height="300"
-      loading="lazy"
-      src="/_next/image?url=%2Fimages%2Fv90_recharge.jpg&w=828&q=75"
-      srcset="/_next/image?url=%2Fimages%2Fv90_recharge.jpg&w=640&q=75 1x, /_next/image?url=%2Fimages%2Fv90_recharge.jpg&w=828&q=75 2x"
-      style="color: transparent; height: auto;"
-      width="400"
-    />
     <div
-      class="flex flex-wrap gap-x-24 justify-center"
-    >
-      <a
-        class="text-accent-blue"
-        href="/learn/v90-recharge"
-      >
-        Learn
-         
-        <img
-          class="icon-mask"
-          height="16"
-          role="presentation"
-          src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
-          style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
-          width="16"
-        />
-      </a>
-      <a
-        class="text-accent-blue"
-        href="/shop/v90-recharge"
-      >
-        Shop
-         
-        <img
-          class="icon-mask"
-          height="16"
-          role="presentation"
-          src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
-          style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
-          width="16"
-        />
-      </a>
-    </div>
-  </div>
-  <div
-    class="flex-col flex-shrink-0 flex-grow-0 gap-y-8 w-xs h-full snap-start"
-  >
-    <p
-      class="font-medium"
-    >
-      estate
-    </p>
-    <div
-      class="flex-col md:flex-row gap-8"
-    >
-      <p
-        class="font-medium"
-      >
-        V60 Recharge
-      </p>
-      <p
-        class="font-medium text-secondary"
-      >
-        plug-in hybrid
-      </p>
-    </div>
-    <img
-      alt="V60 Recharge"
-      class="cover aspect-4/3 w-full mb-8"
-      data-nimg="1"
-      decoding="async"
-      height="300"
-      loading="lazy"
-      src="/_next/image?url=%2Fimages%2Fv60_recharge.jpg&w=828&q=75"
-      srcset="/_next/image?url=%2Fimages%2Fv60_recharge.jpg&w=640&q=75 1x, /_next/image?url=%2Fimages%2Fv60_recharge.jpg&w=828&q=75 2x"
-      style="color: transparent; height: auto;"
-      width="400"
-    />
-    <div
-      class="flex flex-wrap gap-x-24 justify-center"
-    >
-      <a
-        class="text-accent-blue"
-        href="/learn/v60-recharge"
-      >
-        Learn
-         
-        <img
-          class="icon-mask"
-          height="16"
-          role="presentation"
-          src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
-          style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
-          width="16"
-        />
-      </a>
-      <a
-        class="text-accent-blue"
-        href="/shop/v60-recharge"
-      >
-        Shop
-         
-        <img
-          class="icon-mask"
-          height="16"
-          role="presentation"
-          src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
-          style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
-          width="16"
-        />
-      </a>
-    </div>
-  </div>
-  <div
-    class="flex-col flex-shrink-0 flex-grow-0 gap-y-8 w-xs h-full snap-start"
-  >
-    <p
-      class="font-medium"
-    >
-      sedan
-    </p>
-    <div
-      class="flex-col md:flex-row gap-8"
+      class="flex-col flex-shrink-0 flex-grow-0 gap-y-8 w-xs h-full snap-start"
     >
       <p
         class="font-medium"
       >
-        S90 Recharge
+        suv
       </p>
-      <p
-        class="font-medium text-secondary"
+      <div
+        class="flex-col md:flex-row gap-8"
       >
-        plug-in hybrid
-      </p>
+        <p
+          class="font-medium"
+        >
+          XC40 Recharge
+        </p>
+        <p
+          class="font-medium text-secondary"
+        >
+          pure electric
+        </p>
+      </div>
+      <img
+        alt="XC40 Recharge"
+        class="cover aspect-4/3 w-full mb-8"
+        data-nimg="1"
+        decoding="async"
+        height="300"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Fxc40_bev.jpg&w=828&q=75"
+        srcset="/_next/image?url=%2Fimages%2Fxc40_bev.jpg&w=640&q=75 1x, /_next/image?url=%2Fimages%2Fxc40_bev.jpg&w=828&q=75 2x"
+        style="color: transparent; height: auto;"
+        width="400"
+      />
+      <div
+        class="flex flex-wrap gap-x-24 justify-center"
+      >
+        <a
+          class="text-accent-blue"
+          href="/learn/xc40-bev"
+        >
+          Learn
+           
+          <img
+            class="icon-mask"
+            height="16"
+            role="presentation"
+            src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
+            style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
+            width="16"
+          />
+        </a>
+        <a
+          class="text-accent-blue"
+          href="/shop/xc40-bev"
+        >
+          Shop
+           
+          <img
+            class="icon-mask"
+            height="16"
+            role="presentation"
+            src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
+            style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
+            width="16"
+          />
+        </a>
+      </div>
     </div>
-    <img
-      alt="S90 Recharge"
-      class="cover aspect-4/3 w-full mb-8"
-      data-nimg="1"
-      decoding="async"
-      height="300"
-      loading="lazy"
-      src="/_next/image?url=%2Fimages%2Fs90_recharge.jpg&w=828&q=75"
-      srcset="/_next/image?url=%2Fimages%2Fs90_recharge.jpg&w=640&q=75 1x, /_next/image?url=%2Fimages%2Fs90_recharge.jpg&w=828&q=75 2x"
-      style="color: transparent; height: auto;"
-      width="400"
-    />
     <div
-      class="flex flex-wrap gap-x-24 justify-center"
-    >
-      <a
-        class="text-accent-blue"
-        href="/learn/s90-recharge"
-      >
-        Learn
-         
-        <img
-          class="icon-mask"
-          height="16"
-          role="presentation"
-          src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
-          style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
-          width="16"
-        />
-      </a>
-      <a
-        class="text-accent-blue"
-        href="/shop/s90-recharge"
-      >
-        Shop
-         
-        <img
-          class="icon-mask"
-          height="16"
-          role="presentation"
-          src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
-          style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
-          width="16"
-        />
-      </a>
-    </div>
-  </div>
-  <div
-    class="flex-col flex-shrink-0 flex-grow-0 gap-y-8 w-xs h-full snap-start"
-  >
-    <p
-      class="font-medium"
-    >
-      sedan
-    </p>
-    <div
-      class="flex-col md:flex-row gap-8"
+      class="flex-col flex-shrink-0 flex-grow-0 gap-y-8 w-xs h-full snap-start"
     >
       <p
         class="font-medium"
       >
-        S60 Recharge
+        estate
       </p>
-      <p
-        class="font-medium text-secondary"
+      <div
+        class="flex-col md:flex-row gap-8"
       >
-        plug-in hybrid
-      </p>
+        <p
+          class="font-medium"
+        >
+          V90 Recharge
+        </p>
+        <p
+          class="font-medium text-secondary"
+        >
+          plug-in hybrid
+        </p>
+      </div>
+      <img
+        alt="V90 Recharge"
+        class="cover aspect-4/3 w-full mb-8"
+        data-nimg="1"
+        decoding="async"
+        height="300"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Fv90_recharge.jpg&w=828&q=75"
+        srcset="/_next/image?url=%2Fimages%2Fv90_recharge.jpg&w=640&q=75 1x, /_next/image?url=%2Fimages%2Fv90_recharge.jpg&w=828&q=75 2x"
+        style="color: transparent; height: auto;"
+        width="400"
+      />
+      <div
+        class="flex flex-wrap gap-x-24 justify-center"
+      >
+        <a
+          class="text-accent-blue"
+          href="/learn/v90-recharge"
+        >
+          Learn
+           
+          <img
+            class="icon-mask"
+            height="16"
+            role="presentation"
+            src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
+            style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
+            width="16"
+          />
+        </a>
+        <a
+          class="text-accent-blue"
+          href="/shop/v90-recharge"
+        >
+          Shop
+           
+          <img
+            class="icon-mask"
+            height="16"
+            role="presentation"
+            src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
+            style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
+            width="16"
+          />
+        </a>
+      </div>
     </div>
-    <img
-      alt="S60 Recharge"
-      class="cover aspect-4/3 w-full mb-8"
-      data-nimg="1"
-      decoding="async"
-      height="300"
-      loading="lazy"
-      src="/_next/image?url=%2Fimages%2Fs60_recharge.jpg&w=828&q=75"
-      srcset="/_next/image?url=%2Fimages%2Fs60_recharge.jpg&w=640&q=75 1x, /_next/image?url=%2Fimages%2Fs60_recharge.jpg&w=828&q=75 2x"
-      style="color: transparent; height: auto;"
-      width="400"
-    />
     <div
-      class="flex flex-wrap gap-x-24 justify-center"
+      class="flex-col flex-shrink-0 flex-grow-0 gap-y-8 w-xs h-full snap-start"
     >
-      <a
-        class="text-accent-blue"
-        href="/learn/s60-recharge"
+      <p
+        class="font-medium"
       >
-        Learn
-         
-        <img
-          class="icon-mask"
-          height="16"
-          role="presentation"
-          src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
-          style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
-          width="16"
-        />
-      </a>
-      <a
-        class="text-accent-blue"
-        href="/shop/s60-recharge"
+        estate
+      </p>
+      <div
+        class="flex-col md:flex-row gap-8"
       >
-        Shop
-         
-        <img
-          class="icon-mask"
-          height="16"
-          role="presentation"
-          src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
-          style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
-          width="16"
-        />
-      </a>
+        <p
+          class="font-medium"
+        >
+          V60 Recharge
+        </p>
+        <p
+          class="font-medium text-secondary"
+        >
+          plug-in hybrid
+        </p>
+      </div>
+      <img
+        alt="V60 Recharge"
+        class="cover aspect-4/3 w-full mb-8"
+        data-nimg="1"
+        decoding="async"
+        height="300"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Fv60_recharge.jpg&w=828&q=75"
+        srcset="/_next/image?url=%2Fimages%2Fv60_recharge.jpg&w=640&q=75 1x, /_next/image?url=%2Fimages%2Fv60_recharge.jpg&w=828&q=75 2x"
+        style="color: transparent; height: auto;"
+        width="400"
+      />
+      <div
+        class="flex flex-wrap gap-x-24 justify-center"
+      >
+        <a
+          class="text-accent-blue"
+          href="/learn/v60-recharge"
+        >
+          Learn
+           
+          <img
+            class="icon-mask"
+            height="16"
+            role="presentation"
+            src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
+            style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
+            width="16"
+          />
+        </a>
+        <a
+          class="text-accent-blue"
+          href="/shop/v60-recharge"
+        >
+          Shop
+           
+          <img
+            class="icon-mask"
+            height="16"
+            role="presentation"
+            src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
+            style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
+            width="16"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      class="flex-col flex-shrink-0 flex-grow-0 gap-y-8 w-xs h-full snap-start"
+    >
+      <p
+        class="font-medium"
+      >
+        sedan
+      </p>
+      <div
+        class="flex-col md:flex-row gap-8"
+      >
+        <p
+          class="font-medium"
+        >
+          S90 Recharge
+        </p>
+        <p
+          class="font-medium text-secondary"
+        >
+          plug-in hybrid
+        </p>
+      </div>
+      <img
+        alt="S90 Recharge"
+        class="cover aspect-4/3 w-full mb-8"
+        data-nimg="1"
+        decoding="async"
+        height="300"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Fs90_recharge.jpg&w=828&q=75"
+        srcset="/_next/image?url=%2Fimages%2Fs90_recharge.jpg&w=640&q=75 1x, /_next/image?url=%2Fimages%2Fs90_recharge.jpg&w=828&q=75 2x"
+        style="color: transparent; height: auto;"
+        width="400"
+      />
+      <div
+        class="flex flex-wrap gap-x-24 justify-center"
+      >
+        <a
+          class="text-accent-blue"
+          href="/learn/s90-recharge"
+        >
+          Learn
+           
+          <img
+            class="icon-mask"
+            height="16"
+            role="presentation"
+            src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
+            style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
+            width="16"
+          />
+        </a>
+        <a
+          class="text-accent-blue"
+          href="/shop/s90-recharge"
+        >
+          Shop
+           
+          <img
+            class="icon-mask"
+            height="16"
+            role="presentation"
+            src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
+            style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
+            width="16"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      class="flex-col flex-shrink-0 flex-grow-0 gap-y-8 w-xs h-full snap-start"
+    >
+      <p
+        class="font-medium"
+      >
+        sedan
+      </p>
+      <div
+        class="flex-col md:flex-row gap-8"
+      >
+        <p
+          class="font-medium"
+        >
+          S60 Recharge
+        </p>
+        <p
+          class="font-medium text-secondary"
+        >
+          plug-in hybrid
+        </p>
+      </div>
+      <img
+        alt="S60 Recharge"
+        class="cover aspect-4/3 w-full mb-8"
+        data-nimg="1"
+        decoding="async"
+        height="300"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Fs60_recharge.jpg&w=828&q=75"
+        srcset="/_next/image?url=%2Fimages%2Fs60_recharge.jpg&w=640&q=75 1x, /_next/image?url=%2Fimages%2Fs60_recharge.jpg&w=828&q=75 2x"
+        style="color: transparent; height: auto;"
+        width="400"
+      />
+      <div
+        class="flex flex-wrap gap-x-24 justify-center"
+      >
+        <a
+          class="text-accent-blue"
+          href="/learn/s60-recharge"
+        >
+          Learn
+           
+          <img
+            class="icon-mask"
+            height="16"
+            role="presentation"
+            src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
+            style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
+            width="16"
+          />
+        </a>
+        <a
+          class="text-accent-blue"
+          href="/shop/s60-recharge"
+        >
+          Shop
+           
+          <img
+            class="icon-mask"
+            height="16"
+            role="presentation"
+            src="https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg"
+            style="--icon-url: url(https://www.volvocars.com/static/shared/icons/v2/navigation-chevronforward-16.svg);"
+            width="16"
+          />
+        </a>
+      </div>
     </div>
   </div>
 </div>

@@ -1,20 +1,19 @@
-import useSWR from "swr";
 import { Select } from "@volvo-cars/react-forms";
 
-import fetcher from "../utils/fetcher";
+import { useCallback } from "react";
+import useFetch from "../utils/useFetch";
 
 import type { CarBodyType } from "../types";
-import { useCallback } from "react";
 
 export const SelectBodyType: React.FC<{
   className?: string;
   onChange: (bodyType: CarBodyType | undefined) => void;
 }> = ({ className, onChange }) => {
-  const { data } = useSWR<CarBodyType[]>("/api/bodyTypes", fetcher);
+  const { data } = useFetch<CarBodyType[]>("/api/bodyTypes");
 
   const handleChange = useCallback(
-    (e: React.ChangeEvent<HTMLSelectElement>) => {
-      onChange(e.target.value || undefined);
+    ({ target: { value } }: React.ChangeEvent<HTMLSelectElement>) => {
+      onChange(value === "all" ? undefined : value);
     },
     [onChange]
   );
@@ -25,9 +24,9 @@ export const SelectBodyType: React.FC<{
       name="bodyType"
       label="Select body type"
       onChange={handleChange}
-      defaultValue={""}
+      defaultValue={"all"}
     >
-      <option value="">All</option>
+      <option value="all">All</option>
       {data?.map((bodyType) => (
         <option key={bodyType} value={bodyType}>
           {bodyType}

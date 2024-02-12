@@ -7,8 +7,8 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <FavIcons />
-        {links().map((linkProps) => (
-          <link key={linkProps.href} {...linkProps} />
+        {links().map((linkProps, index) => (
+          <link key={index} {...linkProps} />
         ))}
       </Head>
       <body>

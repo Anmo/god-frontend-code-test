@@ -4,16 +4,15 @@ import { Wordmark } from "@volvo-cars/react-icons";
 
 import type { CarBodyType, Cars } from "../src/types";
 
-import fetcher from "../src/utils/fetcher";
 import { Card } from "../src/components/Car";
 import { Reel } from "../src/components/Reel";
 import { SelectBodyType } from "../src/components/SelectBodyType";
+import useFetch from "../src/utils/useFetch";
 
 function HomePage() {
   const [bodyType, setBodyType] = useState<CarBodyType>();
-  const { data, error } = useSWR<Cars>(
-    bodyType ? `/api/cars?bodyType=${bodyType}` : "/api/cars",
-    fetcher
+  const { data, error, isLoading } = useFetch<Cars>(
+    bodyType ? `/api/cars?bodyType=${bodyType}` : "/api/cars"
   );
 
   if (error) return <div>Failed to load</div>;
@@ -25,11 +24,19 @@ function HomePage() {
         <Wordmark />
         <SelectBodyType className="w-xs" onChange={setBodyType} />
       </div>
-      <Reel>
-        {data.map((car) => (
-          <Card key={car.id} {...car} />
-        ))}
-      </Reel>
+      <div className="main-container">
+        <Reel>
+          {data?.map((car) => (
+            <Card key={car.id} {...car} />
+          ))}
+        </Reel>
+        {isLoading && (
+          <progress
+            aria-label="Loading"
+            className="spinner centered-spinner text-accent-blue scale-110"
+          />
+        )}
+      </div>
     </>
   );
 }

@@ -1,13 +1,14 @@
 import React from "react";
 import { useRouter } from "next/router";
-import useSWR from "swr";
 
-import fetcher from "../../src/utils/fetcher";
 import { Card } from "../../src/components/Car";
+import useFetch from "../../src/utils/useFetch";
+
+import type { Car } from "../../src/types";
 
 function Learn() {
   const router = useRouter();
-  const { data, error } = useSWR(`/api/cars/${router.query.id}`, fetcher);
+  const { data, error } = useFetch<Car>(`/api/cars/${router.query.id}`);
 
   if (error) return <div>Failed to load</div>;
   if (!data) return <div>Loading...</div>;
