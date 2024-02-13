@@ -1,7 +1,8 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 
-import cars from "../../../public/api/cars.json";
 import type { Car } from "../../../src/types";
+
+import cars from "../../../public/api/cars.json";
 
 export default function handler(
   req: NextApiRequest,

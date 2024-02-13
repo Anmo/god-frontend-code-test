@@ -1,13 +1,12 @@
 import { useState } from "react";
-import useSWR from "swr";
 import { Wordmark } from "@volvo-cars/react-icons";
 
-import type { CarBodyType, Cars } from "../src/types";
-
+import { SelectBodyType } from "../src/components/SelectBodyType";
 import { Card } from "../src/components/Car";
 import { Reel } from "../src/components/Reel";
-import { SelectBodyType } from "../src/components/SelectBodyType";
 import useFetch from "../src/utils/useFetch";
+
+import type { CarBodyType, Cars } from "../src/types";
 
 function HomePage() {
   const [bodyType, setBodyType] = useState<CarBodyType>();

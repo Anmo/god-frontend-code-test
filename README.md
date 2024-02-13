@@ -1,5 +1,36 @@
 # Volvo Cars (Global Online Digital)
 
+## Pre-requirements
+
+- Node (v18.17)
+- Yarn
+
+## Install
+
+Just run `yarn` to install dependencies
+
+## Running project
+
+To run the project you can just run `yarn dev` and then access http://localhost:3000
+You can also access to the deployed version at https://god-frontend-code-test-kappa.vercel.app/
+
+## Testing
+
+To run the unit tests you can run the command: `yarn test`
+
+_Note: the tests weren't exaustive, it was just focus on the pages and utils_
+
+## Technical decisions
+
+I tried to follow the base requirements as possible, but I tried to not overthink.
+One example of that is with the SelectBodyType component, in a normal project we would create a Select component and let the options (getting them async or not) would be received from the page (directly by fetching it, similar to what I have done inside the component or from a state management).
+
+Regarding the API I tried to have a real straightforward approach, read from the file and do small operations (filtering, finding or mapping) on top of it. Obviously in a real project we would have some sort of DB and need to access it and also take into consideration authorization/authentication.
+
+In terms of design system, I notice that the suggested library (`VCC-UI`) was with alot of deprecation notice, therefore I took the liberty to go with `@volvo-cars/css`.
+
+# Original README:
+
 ## Front-end coding test (React)
 
 Our team's designer has come up with a new design to show our latest and greatest recharge cars on the website.
